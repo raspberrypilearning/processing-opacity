@@ -1,59 +1,34 @@
-## Introduction
+You can make partly transparent colours by adding a fourth number to an RGB colour to give the 'opacity'.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+This code draws the overlapping highlights in the Kawaii fruit example:
 
-### What you will make
-
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
+language: python
+filename: main.py - draw()
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+  # Highlights
+  fill(255, 255, 255, 70) # white transparent
+  ellipse(170, 150, 35, 35)
+  ellipse(150, 160, 25, 25)
+--- /code ---
 
---- /collapse ---
+![kawaii fruit image with highlights, more transparent](images/transparency_70.png)
 
---- collapse ---
+If you change the `70` to `30`, the transparency will change:
+
 ---
-title: Additional information for educators
+language: python
+filename: main.py - draw()
 ---
 
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
+  # Highlights
+  fill(255, 255, 255, 30) # less transparent
+  ellipse(170, 150, 35, 35)
+  ellipse(150, 160, 25, 25)
+--- /code ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+![kawaii fruit image with highlights, less transparent](images/transparency_30.png)
 
---- /collapse ---
+--- /code ---
