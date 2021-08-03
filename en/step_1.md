@@ -1,4 +1,5 @@
 You can make partly transparent colours by adding a fourth number to an RGB colour to give the 'opacity'.
+You can make partly transparent colours by adding a fourth number to an RGB colour to give the 'opacity'.
 
 This code draws the overlapping highlights in the Kawaii fruit example:
 
@@ -9,26 +10,10 @@ filename: main.py - draw()
 ---
 
   # Highlights
-  fill(255, 255, 255, 70) # white transparent
+  fill(255, 255, 255, 70) # 70 is transparency/opacity here
   ellipse(170, 150, 35, 35)
   ellipse(150, 160, 25, 25)
 --- /code ---
 
-![kawaii fruit image with highlights, more transparent](images/transparency_70.png)
+![kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. 30 is more opaque and 255 is less opaqe](images/opacity.png)
 
-If you change the `70` to `30`, the transparency will change:
-
----
-language: python
-filename: main.py - draw()
----
-
-  # Highlights
-  fill(255, 255, 255, 30) # less transparent
-  ellipse(170, 150, 35, 35)
-  ellipse(150, 160, 25, 25)
---- /code ---
-
-![kawaii fruit image with highlights, less transparent](images/transparency_30.png)
-
---- /code ---
