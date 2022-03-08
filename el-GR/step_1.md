@@ -1,6 +1,6 @@
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the 'opacity'.
+Μπορείς να δημιουργήσεις μερικώς διαφανή χρώματα προσθέτοντας έναν τέταρτο αριθμό σε ένα χρώμα RGB για να δώσεις «αδιαφάνεια».
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+Αυτός ο κώδικας σχεδιάζει επικαλυπτόμενα φωτεινά σημεία στο παράδειγμα με τα φρούτα Kawaii:
 
 --- code ---
 ---
@@ -12,5 +12,5 @@ filename: main.py - draw()
 
 --- /code ---
 
-![kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. 30 is more opaque and 255 is less opaqe](images/opacity.png)
+![εικόνα φρούτων kawaii με φωτεινά σημεία σε διαφορετικές αδιαφάνειες: 30, 70, 150, 255. Το 30 είναι πιο αδιαφανές και το 255 είναι λιγότερο αδιαφανές](images/opacity.png)
 
