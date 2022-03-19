@@ -1,6 +1,6 @@
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the 'opacity'.
+Tu peux créer des couleurs partiellement transparentes en ajoutant un quatrième nombre à une couleur RVB pour donner « l'opacité ».
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+Ce code dessine les reflets qui se chevauchent dans l'exemple de fruit Kawaii :
 
 --- code ---
 ---
@@ -12,5 +12,5 @@ filename: main.py - draw()
 
 --- /code ---
 
-![kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. 30 is more opaque and 255 is less opaqe](images/opacity.png)
+![image de fruits kawaii avec des reflets à différentes opacités : 30, 70, 150, 255. 30 est plus opaque et 255 est moins opaque](images/opacity.png)
 
