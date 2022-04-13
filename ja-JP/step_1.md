@@ -1,6 +1,6 @@
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the 'opacity'.
+RGBの色指定に続けて4番目に「不透明度」を指定する数値を付け加えると、部分的に透明な色を作成できます。
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+このコードは、カワイイフルーツにハイライト当てたような図形を描画します。
 
 --- code ---
 ---
@@ -12,5 +12,5 @@ filename: main.py - draw()
 
 --- /code ---
 
-![kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. 30 is more opaque and 255 is less opaqe](images/opacity.png)
+![さまざまな不透明度（30、70、150、255）でハイライトされたカワイイフルーツ画像。 30は不透明度が高く、255は不透明度が低い。](images/opacity.png)
 
