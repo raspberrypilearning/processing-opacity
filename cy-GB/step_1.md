@@ -1,6 +1,6 @@
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the 'opacity'.
+Fe allwch chi wneud lliwiau lled-dryloyw drwy ychwanegu pedwerydd rhif at liw RGB i roi'r 'afloywder'.
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+Mae'r cod hwn yn llunio'r aroleuadau sy'n gorgyffwrdd yn yr enghraifft Ffrwyth Kawaii:
 
 --- code ---
 ---
@@ -12,5 +12,5 @@ filename: main.py - draw()
 
 --- /code ---
 
-![kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. 30 is more opaque and 255 is less opaqe](images/opacity.png)
+![delwedd o Ffrwyth Kawaii gydag aroleuadau o wahanol afloywder: 30, 70, 150, 255. Mae 30 yn fwy afloyw a 255 yn llai afloyw](images/opacity.png)
 
