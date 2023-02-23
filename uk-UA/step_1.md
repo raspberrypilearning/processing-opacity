@@ -1,6 +1,6 @@
-You can make partly transparent colours by adding a fourth number to an RGB colour to give the 'opacity'.
+Ти можеш створювати частково прозорі кольори - додай четверте число до кольору RGB, щоб отримати 'прозорість'.
 
-This code draws the overlapping highlights in the Kawaii fruit example:
+Цей код малює декілька відблисків світла, які перекриваються, у проєкті Милий фрукт:
 
 --- code ---
 ---
@@ -12,5 +12,5 @@ filename: main.py - draw()
 
 --- /code ---
 
-![kawaii fruit image with highlights at different opacities: 30, 70, 150, 255. 30 is more opaque and 255 is less opaqe](images/opacity.png)
+![зображення фрукта з відблисками з різною прозорістю: 30, 70, 150, 255. 30 - більш прозорий, 255 - менш прозорий](images/opacity.png)
 
