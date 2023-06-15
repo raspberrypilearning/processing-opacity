@@ -1,6 +1,6 @@
 Puedes hacer colores parcialmente transparentes agregando un cuarto número a un color RGB para dar la 'opacidad'.
 
-Este programa dibuja los reflejos superpuestos en el ejemplo de la fruta Kawaii:
+Este codigo dibuja los reflejos superpuestos en el ejemplo de la fruta Kawaii:
 
 --- code ---
 ---
