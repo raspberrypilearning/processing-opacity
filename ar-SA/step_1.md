@@ -12,5 +12,5 @@ filename: main.py - draw()
 
 --- /code ---
 
-![صورة فاكهة الكيوي مع الإبرازات بدرجات تعتيم مختلفة: 30 ، 70 ، 150 ، 255. 30 أكثر تعتيمًا و 255 أقل تعتيمًا](images/opacity.png)
+![صورة فاكهة الكيوي مع الإبرازات بدرجات تعتيم مختلفة: 30 ، 70 ، 150 ، 255. 30 is less opaque and 255 is fully opaque](images/opacity.png)
 
