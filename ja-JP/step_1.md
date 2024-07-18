@@ -12,5 +12,5 @@ filename: main.py - draw()
 
 --- /code ---
 
-![さまざまな不透明度（30、70、150、255）でハイライトされたカワイイフルーツ画像。 30は不透明度が高く、255は不透明度が低い。](images/opacity.png)
+![さまざまな不透明度（30、70、150、255）でハイライトされたカワイイフルーツ画像。 30 is less opaque and 255 is fully opaque](images/opacity.png)
 
