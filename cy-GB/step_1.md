@@ -12,5 +12,5 @@ filename: main.py - draw()
 
 --- /code ---
 
-![delwedd o Ffrwyth Kawaii gydag aroleuadau o wahanol afloywder: 30, 70, 150, 255. Mae 30 yn fwy afloyw a 255 yn llai afloyw](images/opacity.png)
+![delwedd o Ffrwyth Kawaii gydag aroleuadau o wahanol afloywder: 30, 70, 150, 255. 30 is less opaque and 255 is fully opaque](images/opacity.png)
 
