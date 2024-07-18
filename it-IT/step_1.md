@@ -12,5 +12,5 @@ filename: main.py - draw()
 
 --- /code ---
 
-![immagine di frutta kawaii con riflessi di luce a diverse opacità: 30, 70, 150, 255. 30 è più trasparente e 255 è più opaco](images/opacity.png)
+![immagine di frutta kawaii con riflessi di luce a diverse opacità: 30, 70, 150, 255. 30 is less opaque and 255 is fully opaque](images/opacity.png)
 
