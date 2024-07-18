@@ -1,4 +1,4 @@
-Puoi rendere colori parzialmente trasparenti aggiungendo un quarto numero a un colore RGB per dare l' "opacità".
+Puoi rendere colori parzialmente trasparenti aggiungendo un quarto numero a un colore RGB per dare il valore di opacità.
 
 Questo codice disegna i riflessi di luce sul frutto Kawaii dell'esempio:
 
@@ -12,5 +12,5 @@ filename: main.py - draw()
 
 --- /code ---
 
-![immagine di frutta kawaii con riflessi di luce a diverse opacità: 30, 70, 150, 255. 30 è più opaco e 255 è meno opaco](images/opacity.png)
+![immagine di frutta kawaii con riflessi di luce a diverse opacità: 30, 70, 150, 255. 30 è più trasparente e 255 è più opaco](images/opacity.png)
 
